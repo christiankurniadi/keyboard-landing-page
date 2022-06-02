@@ -1,0 +1,80 @@
+.hero{
+    margin: 7rem 0 2rem 0;
+    height: 60vh;
+    width: 100vw;
+    // justify-content: center;
+    flex-direction: column-reverse;
+
+    @include breakpoint-up(lg){
+        padding: 1rem 3.265rem;
+        flex-direction: row-reverse;
+        // align-items: center;
+        margin-top: 0rem;
+        height: 100vh;
+    }
+
+    &__text{
+        width: 100vw;
+        flex: 1;
+        text-align: center;
+
+        @include breakpoint-up(lg){
+            text-align: left;
+        }
+
+        h1{
+            margin: 1rem 0;
+
+            @include breakpoint-up(lg){
+                font-size: $font-xl;
+            }
+        }
+
+        p{
+            margin-bottom: 1rem;
+
+            @include breakpoint-up(lg){
+                font-size: $font-md;
+            }
+        }
+
+        .cta{
+            flex-direction: column;
+            align-items: center;
+            margin: 1rem 0;
+
+            @include breakpoint-up(lg){
+                flex-direction: row;
+                // justify-content: space-between;
+            }
+
+            button:first-child{
+                margin-top: 1rem;
+                margin-bottom: .3rem;
+                background-color: $darkBlue;
+                color: white;
+
+                @include breakpoint-up(lg){
+                    margin: 0 1rem 0 0;
+                }
+            }
+        }
+    }
+
+    &__image{
+        // flex: 3;
+        z-index: -1;
+
+        @include breakpoint-up(lg){
+            flex: 1;
+        }
+
+        img{
+            max-width: 100%;
+            filter: drop-shadow(0 5px 3px rgb(39, 39, 39));
+            animation: drop 1.5s ease;
+        }
+
+        
+    }
+}

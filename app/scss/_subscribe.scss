@@ -1,0 +1,51 @@
+.subscribe{
+    text-align: center;
+    background-color: $darkBlue;
+    color: white;
+    scroll-margin-top: 3rem;
+
+    h3{
+
+        @include breakpoint-up(lg){
+            font-size: $font-xl;
+
+        }
+    }
+
+    p{
+        margin-bottom: 2.5rem;
+    }
+
+    p:nth-child(4){
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+        font-size: $font-xs;
+
+        a{
+            color: white;
+            text-decoration: underline;
+
+            &:hover{
+                text-decoration: none;
+            }
+        }
+    }
+
+    #email{
+        width: 100%;
+        border-radius: 0;
+        border: 1px solid white;
+        background-color: $darkBlue;
+        color: white;
+        height: 2rem;
+        padding-left: .5rem;
+
+        @include breakpoint-up(lg){
+            width: 30%;
+            height: 2.5rem;
+
+        }
+
+
+    }
+}

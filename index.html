@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="dist/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="overlay">
+        <a class="link" href="#shop">Shop</a>
+        <a class="link" href="#about">About</a>
+        <a class="link" href="#">Community</a>
+        <a class="link" href="#subscribe">Subscribe</a>
+      </div>
+      <nav class="container--pall flex flex-jc-sb flex-ai-c">
+        <a id="btnHamburger" href="#" class="header__menu hide-for-desktop">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+        <a href="/" class="header__logo">
+          <img src="img/logo.png" alt="logo" />
+        </a>
+        <div class="header__links hide-for-mobile">
+          <a href="#shop">Shop</a>
+          <a href="#about">About</a>
+          <a href="#">Community</a>
+          <a href="#subscribe">Subscribe</a>
+        </div>
+        <a href="#" class="header__cart">
+          <img src="img/cart-shopping-solid.svg" alt="cart" class="filter" />
+        </a>
+      </nav>
+    </header>
+
+    <section class="hero container--pall flex flex-ai-c">
+      <div class="hero__text container--pall">
+        <h1>Illest mechanical keyboard in the game</h1>
+        <p>The mechanical keyboard you never knew you need. Offering a clickity clack sensation that you would never forget.</p>
+        <div class="cta flex">
+          <button class="btn">View product</button>
+          <button class="btn">Pre-order now</button>
+        </div>
+      </div>
+      <div class="hero__image container--pall">
+        <img src="img/hero.png" alt="keyboard" />
+      </div>
+    </section>
+
+    <section id="shop" class="shop flex container--pall">
+      <div class="shop__keyboards flex">
+        <h2>shop mechanical keyboards</h2>
+        <p>We believe typing should be a joy, not a chore, which is why we are here to provide everyone with a nice-looking and comfortable keyboard. Explore our Mechanical Keyboards and elevate your typing experience.</p>
+        <a href="#">
+          <div class="shop__image">
+            <img src="img/keyboard.jpg" alt="keyboard" />
+          </div>
+        </a>
+      </div>
+      <div class="shop__keycaps flex">
+        <h2>shop keycaps</h2>
+        <p>Who doesn't want nice-looking keycaps? We believe everyone is a fan of nice keycaps. Explore our Keycaps collections to satisfy your eyes and flex it to the world!</p>
+        <a href="#">
+          <div class="shop__image">
+            <img src="img/keycaps.jpg" alt="keycaps" />
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#042440"
+        fill-opacity="1"
+        d="M0,256L18.5,266.7C36.9,277,74,299,111,266.7C147.7,235,185,149,222,144C258.5,139,295,213,332,250.7C369.2,288,406,288,443,250.7C480,213,517,139,554,112C590.8,85,628,107,665,128C701.5,149,738,171,775,202.7C812.3,235,849,277,886,282.7C923.1,288,960,256,997,240C1033.8,224,1071,224,1108,224C1144.6,224,1182,224,1218,218.7C1255.4,213,1292,203,1329,197.3C1366.2,192,1403,192,1422,192L1440,192L1440,0L1421.5,0C1403.1,0,1366,0,1329,0C1292.3,0,1255,0,1218,0C1181.5,0,1145,0,1108,0C1070.8,0,1034,0,997,0C960,0,923,0,886,0C849.2,0,812,0,775,0C738.5,0,702,0,665,0C627.7,0,591,0,554,0C516.9,0,480,0,443,0C406.2,0,369,0,332,0C295.4,0,258,0,222,0C184.6,0,148,0,111,0C73.8,0,37,0,18,0L0,0Z"
+      ></path>
+    </svg> -->
+
+    <section id="about" class="about container--pall">
+      <h2>Designed by Community, for Everyone</h2>
+      <p>
+        WASD is designing products differently. By researching data and insights from passionate people and applying them to our products and designs, we deliver inventive products that fulfill your desire. Founded in 2022, WASD empowers people around the world to discover new, diverse products every day; participate in product development; and learn and share with a community 2 million strong.
+      </p>
+      <p>Find and follow your passions on WASD. You can also connect with us on Facebook, Instagram, and Twitter.</p>
+    </section>
+
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#f5f5f5"
+        fill-opacity="1"
+        d="M0,160L18.5,176C36.9,192,74,224,111,208C147.7,192,185,128,222,85.3C258.5,43,295,21,332,32C369.2,43,406,85,443,117.3C480,149,517,171,554,165.3C590.8,160,628,128,665,112C701.5,96,738,96,775,101.3C812.3,107,849,117,886,117.3C923.1,117,960,107,997,85.3C1033.8,64,1071,32,1108,48C1144.6,64,1182,128,1218,133.3C1255.4,139,1292,85,1329,74.7C1366.2,64,1403,96,1422,112L1440,128L1440,0L1421.5,0C1403.1,0,1366,0,1329,0C1292.3,0,1255,0,1218,0C1181.5,0,1145,0,1108,0C1070.8,0,1034,0,997,0C960,0,923,0,886,0C849.2,0,812,0,775,0C738.5,0,702,0,665,0C627.7,0,591,0,554,0C516.9,0,480,0,443,0C406.2,0,369,0,332,0C295.4,0,258,0,222,0C184.6,0,148,0,111,0C73.8,0,37,0,18,0L0,0Z"
+      ></path>
+    </svg> -->
+
+    <!-- <section class="community container--pall">
+      <a href="#">
+        <div class="community__card container--pall">
+          <img src="/img/1.jpg" alt="" />
+          <h3>Lorem, ipsum dolor.</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolorum, asperiores doloremque aut ratione quia?</p>
+        </div>
+      </a>
+
+      <a href="#">
+        <div class="community__card container--pall">
+          <img src="/img/2.jpg" alt="" />
+          <h3>Lorem, ipsum dolor.</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolorum, asperiores doloremque aut ratione quia?</p>
+        </div>
+      </a>
+    </section> -->
+
+    <section id="subscribe" class="subscribe container--pall">
+      <h3>Sign up to receive our latest and greatest offers</h3>
+      <p>10% off any products coupon inside.</p>
+      <input type="email" id="email" name="email" placeholder="Email address" />
+      <p>Subscribe to receive <a href="#">more information</a></p>
+    </section>
+
+    <footer class="footer container--pall flex">
+      <div class="footer__about flex">
+        <h4>about</h4>
+        <a href="#">About us</a>
+        <a href="#">Careers</a>
+        <a href="#">Contact</a>
+      </div>
+      <div class="footer__collaborate flex">
+        <h4>collaborate with us</h4>
+        <a href="#">For Brands and Designers</a>
+      </div>
+      <div class="footer__support flex">
+        <h4>support</h4>
+        <a href="#">Help Center</a>
+        <a href="#">Community Guidelines</a>
+      </div>
+      <!-- <div class="footer__follow">
+        <h4>follow us</h4>
+        <div class="footer__wrapper flex">
+          <a href="#"><img src="/img/facebook-square-brands.svg" alt="facebook" /></a>
+          <a href="#"><img src="/img/reddit-square-brands.svg" alt="reddit" /></a>
+          <a href="#"><img src="/img/twitter-brands.svg" alt="twitter" /></a>
+          <a href="#"><img src="/img/instagram-brands.svg" alt="Instagram" /></a>
+        </div>
+      </div> -->
+      <div class="footer__logo">
+        <a href="/"> <img src="img/logo.png" alt="logo" /></a>
+      </div>
+      <div class="footer__copyright">
+        <p>&copy; 2022 Chris</p>
+      </div>
+    </footer>
+
+    <script src="app/js/script.js"></script>
+  </body>
+</html>

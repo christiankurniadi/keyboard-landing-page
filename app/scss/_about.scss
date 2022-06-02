@@ -1,0 +1,20 @@
+.about{
+    text-align: center;
+    background-color: #f5f5f5;
+    scroll-margin-top: 3rem;
+
+    @include breakpoint-up(lg){
+        width: 60vw;
+        margin: auto;
+    }
+
+    h2{
+        font-size: $font-xl;
+    }
+
+    p{
+        line-height: 1.4;
+        font-size: $font-md;
+        font-weight: 300;
+    }
+}

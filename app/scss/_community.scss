@@ -1,0 +1,47 @@
+// .community{
+//     background-color: $darkBlue;
+//     margin-top: -85px;
+//     color: white;
+//     // height: 100vh;
+
+//     @include breakpoint-up(lg){
+//         margin-top:-16.5rem;
+//         // padding: 0;
+//     }
+
+//     a{
+//         transition: all 300ms ease;
+
+//         &:hover{
+            
+//         }
+//     }
+
+//     &__card{
+//         margin-top: 4rem;
+//         height: 30rem;
+//         border: 2px solid white;
+//         position: relative;
+
+//         img{
+//             max-width: 100%;
+//             height: auto;
+//             margin: 0;
+//             position: absolute;
+//             top: 0;
+//             left: 0;
+//         }
+
+
+//         h3{
+//             margin-top: 14rem;
+//             font-size: $font-lg;
+//             color: white;
+//         }
+
+//         p{
+//             font-weight: 300;
+//             color: white;
+//         }
+//     }
+// }
